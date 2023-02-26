@@ -6,6 +6,7 @@ openai.api_key = settings.OPENAI_API_KEY
 
 
 def generate_text(prompt):
+
     # model = "davinci"
     model = "text-davinci-003"
     completions = openai.Completion.create(
